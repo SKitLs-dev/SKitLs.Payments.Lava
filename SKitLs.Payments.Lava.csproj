@@ -12,7 +12,7 @@
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
     <AssemblyVersion>1.0.0</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
-    <Version>$(AssemblyVersion)-alpha.0</Version>
+    <Version>$(AssemblyVersion)</Version>
     <Authors>SKitLs</Authors>
     <Copyright>Copyright (C) 2024, SKitLs</Copyright>
     <PackageReadmeFile>README.md</PackageReadmeFile>
@@ -22,7 +22,15 @@
 Lava API Documentation: https://dev.lava.ru/</Description>
     <PackageProjectUrl>https://github.com/SKitLs-dev/SKitLs.Payments.Lava</PackageProjectUrl>
     <PackageTags>payment; payment-service; finance; Lava; payment-gateway</PackageTags>
-    <PackageReleaseNotes>Alpha Release</PackageReleaseNotes>
+    <PackageReleaseNotes>Initial Release.
+
+Supported Endpoint:
+- Shop Endpoint (/business/shop)
+- Invoices Endpoint (/business/invoice)
+- Payoffs Endpoint (/business/payoff)
+ 
+Not Supported Endpoints:
+- Recurrent Endpoint (/business/recurrent)</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>

@@ -1,4 +1,4 @@
-﻿# SKitLs.Payments.Lava
+﻿# SKitLs.Payments.Lava ![Static Badge](https://img.shields.io/badge/Follow%20GitHub%20-%20black?logo=github&link=https%3A%2F%2Fgithub.com%2FSKitLs-dev%2FSKitLs.Payments.Lava) ![GitHub](https://img.shields.io/github/license/SKitLs-dev/SKitLs.Payments.Lava) ![Nuget](https://img.shields.io/nuget/v/SKitLs.Payments.Lava) [![CodeFactor](https://www.codefactor.io/repository/github/skitls-dev/skitls.payments.lava/badge)](https://www.codefactor.io/repository/github/skitls-dev/skitls.payments.lava)
 
 _README version: 2024.04.17, [Source Code](https://github.com/SKitLs-dev/SKitLs.Payments.Lava)_
 
@@ -7,8 +7,8 @@ The SKitLs.Payments.Lava is a comprehensive toolkit designed to facilitate seaml
 
 ## Requirements
 
-- Newtonsoft.Json
-- RestSharp
+- [Newtonsoft.Json](https://www.newtonsoft.com/json)
+- [RestSharp](https://restsharp.dev/)
 
 
 ## Usage
