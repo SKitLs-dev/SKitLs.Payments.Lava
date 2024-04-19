@@ -17,13 +17,13 @@ namespace SKitLs.Payments.Lava.Invoice
         /// <summary>
         /// Unique identifier of the payment in the merchant's system.
         /// </summary>
-        [JsonProperty("orderId")]
+        [JsonProperty("orderId", NullValueHandling = NullValueHandling.Ignore)]
         public string? OrderId { get; set; }
 
         /// <summary>
         /// Unique identifier of the invoice.
         /// </summary>
-        [JsonProperty("invoiceId")]
+        [JsonProperty("invoiceId", NullValueHandling = NullValueHandling.Ignore)]
         public string? InvoiceId { get; set; }
 
         /// <summary>

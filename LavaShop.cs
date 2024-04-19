@@ -94,7 +94,7 @@ namespace SKitLs.Payments.Lava
 
             var response = await client.ExecuteAsync(request, cts);
 
-            if (response.Content is not null)
+            if (!string.IsNullOrEmpty(response.Content))
             {
                 return JsonConvert.DeserializeObject<T>(response.Content) ?? throw new JsonSerializationException($"Was not able to deserialize {nameof(T)} ({url})");
             }

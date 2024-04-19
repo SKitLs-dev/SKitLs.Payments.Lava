@@ -1,4 +1,6 @@
-﻿namespace SKitLs.Payments.Lava.Payoff
+﻿using Newtonsoft.Json;
+
+namespace SKitLs.Payments.Lava.Payoff
 {
     /// <summary>
     /// <b><see href="https://dev.lava.ru/business-payoff-info">[API]</see></b> Represents a request to get Lava payoff status.
@@ -9,16 +11,19 @@
         /// <summary>
         /// Gets or sets the unique identifier of the project.
         /// </summary>
+        [JsonProperty("shopId")]
         public string ShopId { get; set; } = shopId;
 
         /// <summary>
         /// The unique identifier of the payment in the merchant's system.
         /// </summary>
+        [JsonProperty("orderId", NullValueHandling = NullValueHandling.Ignore)]
         public string? OrderId { get; set; }
 
         /// <summary>
         /// The unique identifier of the payout.
         /// </summary>
+        [JsonProperty("payoffId", NullValueHandling = NullValueHandling.Ignore)]
         public string? PayoffId { get; set; }
 
         /// <summary>

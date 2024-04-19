@@ -10,7 +10,7 @@
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <IncludeSymbols>False</IncludeSymbols>
     <GenerateDocumentationFile>True</GenerateDocumentationFile>
-    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
     <FileVersion>$(AssemblyVersion)</FileVersion>
     <Version>$(AssemblyVersion)</Version>
     <Authors>SKitLs</Authors>
@@ -22,15 +22,7 @@
 Lava API Documentation: https://dev.lava.ru/</Description>
     <PackageProjectUrl>https://github.com/SKitLs-dev/SKitLs.Payments.Lava</PackageProjectUrl>
     <PackageTags>payment; payment-service; finance; Lava; payment-gateway</PackageTags>
-    <PackageReleaseNotes>Initial Release.
-
-Supported Endpoint:
-- Shop Endpoint (/business/shop)
-- Invoices Endpoint (/business/invoice)
-- Payoffs Endpoint (/business/payoff)
- 
-Not Supported Endpoints:
-- Recurrent Endpoint (/business/recurrent)</PackageReleaseNotes>
+    <PackageReleaseNotes>(!) Fixed: Get-Status-By-Order-Id for invoice and payoff fixed</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
